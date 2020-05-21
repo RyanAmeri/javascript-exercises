@@ -20,8 +20,6 @@ const caesar = function(sentence, num) {
     
     });
     
-    //ewSentence = newSentence.toString();
-    //const searchRegExp = /,/g;
     newSentence = newSentence.join('');
     return newSentence;
 }
