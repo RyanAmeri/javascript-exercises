@@ -25,10 +25,7 @@ const caesar = function(sentence, num) {
 }
 
 function modulo (x, m) {
- 
     return (x % m + m) % m;
- 
 }
 
-//console.log(caesar("aaa bbb ccc AAA BBB CCC", -1));
 module.exports = caesar
